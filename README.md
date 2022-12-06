@@ -7,6 +7,8 @@ Every year, the tireless _Eric Wastl_ creates fun, christmas themed coding probl
 Here's a snippet from the about page:
 > Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
+Each day's challenge has two problems, each worth one ⭐. A simple example for each problem is provided with a small data input. Following this, each user receives a unique dataset for their problem, for which they use to calculate their unique solution to the day's challenge.
+
 I tried a few of these problems in 2021, and found them to be great fun! Going forwards from 2022 I thought it'd be a nice idea to catalogue my solutions on GitHub, so I could keep a record of them and share them with friends etc.
 
 ## How does it work?
