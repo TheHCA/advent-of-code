@@ -2,12 +2,12 @@
 
 ## ⭐ Part 1 - Initial challenge
 
-> Paste brief for initial problem here
+Paste brief for initial problem here
 
 
 ## ⭐⭐ Part 2 - Stretch challenge
 
-> Paste brief for stretch problem here
+Paste brief for stretch problem here
 
 
 ## Quickstart
