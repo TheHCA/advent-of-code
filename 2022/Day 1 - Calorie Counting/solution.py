@@ -22,7 +22,7 @@ EXAMPLE_INPUT = """
 
 def _parse_input(data: str) -> List[List[int]]:
     """Parse input data into a more malleable format."""
-    return [list(map(int, elf.split())) for elf in data.strip().split("\n\n")]
+    return [list(map(int, elf.splitlines())) for elf in data.strip().split("\n\n")]
 
 
 def solution_part_1(elf_calories: List[List[int]]) -> int:
