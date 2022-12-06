@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
     # Load local data file
     with open(os.path.join(os.path.dirname(__file__), "data.txt"), "r", encoding="utf-8") as f:
-        data = _parse_input(f.readlines())
+        data = _parse_input(f.read().splitlines())
 
     # Execute solution for solution part 1 & 2
     print("\nResults for full puzzle data:")
