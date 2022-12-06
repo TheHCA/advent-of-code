@@ -17,7 +17,7 @@ def solution_part_1(data: List[str]) -> int:
 
 
 def solution_part_2(data: List[str]) -> int:
-    """Solution to Part 1."""
+    """Solution to Part 2."""
     return 0
 
 

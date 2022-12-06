@@ -63,7 +63,7 @@ In the above example, the first two pairs (`2-4,6-8` and `2-3,4-5`) don't overla
 
 So, in this example, the number of overlapping assignment pairs is 4.
 
-In how many assignment pairs do the ranges overlap?
+**In how many assignment pairs do the ranges overlap?**
 
 
 ## Quickstart

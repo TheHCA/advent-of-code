@@ -31,6 +31,7 @@ def solution_part_1(elf_calories: List[List[int]]) -> int:
 
 
 def solution_part_2(elf_calories: List[List[int]]) -> List[int]:
+    """Solution to Part 2."""
     sorted_elves = sorted((sum(i) for i in elf_calories), reverse=True)
     return sum(sorted_elves[:3])
 

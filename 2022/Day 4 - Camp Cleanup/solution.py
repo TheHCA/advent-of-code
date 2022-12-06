@@ -56,7 +56,7 @@ def solution_part_1(assignment_pairings: List[CleaningPairing]) -> int:
 
 
 def solution_part_2(assignment_pairings: List[CleaningPairing]) -> int:
-    """Solution to Part 1."""
+    """Solution to Part 2."""
     overlap = 0
     # Detect any overlap - check endings
     for pairing in assignment_pairings:
