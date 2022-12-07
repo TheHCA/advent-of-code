@@ -21,7 +21,7 @@ To generate a solution skeleton for a new challenge, simply run the below comman
 
 ```bash
 pip install cookiecutter
-cookiecutter -f .
+cookiecutter -f https://github.com/TheHCA/advent-of-code-cookiecutter
 ```
 
 Instructions on how to execute the solutions will be detailed in the associated README for the problem, but generally you can just execute the Python files as normal.
