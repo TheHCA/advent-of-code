@@ -15,7 +15,7 @@ I tried a few of these problems in 2021, and found them to be great fun! Going f
 
 Navigate through the directories in this repo to find my solutions for each of the challenges. Here you'll find the problem outline, as well as the solutions for both the examples given in the problem description, and the generated datafile for my user.
 
-I typically solve most of these problems with Python, and to save myself some time (_and scratch that organisational itch_) I've setup a cookiecutter to nicely format my solutions.
+I typically solve most of these problems with Python, and to save myself some time (_and scratch that organisational itch_) I've setup a [cookiecutter](https://github.com/TheHCA/advent-of-code-cookiecutter) to nicely format my solutions.
 
 To generate a solution skeleton for a new challenge, simply run the below command, complete the cookiecutter questionnaire.
 
