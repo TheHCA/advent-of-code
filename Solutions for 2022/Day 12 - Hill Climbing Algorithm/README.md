@@ -21,7 +21,7 @@ To aid with this visualisation, please see the below graphics generated using th
 
 ![Alt Text](example_data_animation.gif)
 
-### My full dataset for today's challenge
+### My full dataset for todays challenge
 
 ![Alt Text](full_dataset_animation.gif)
 
