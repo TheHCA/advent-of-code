@@ -111,7 +111,7 @@ class Packet(list):
 
 
 def _parse_input(data: str) -> List[Packet]:
-    """Load packet pairs into List of Packet Tuples."""
+    """Walk through input and create list of Packets."""
     result = []
     for packet in data.strip().splitlines():
         if packet:
@@ -120,7 +120,7 @@ def _parse_input(data: str) -> List[Packet]:
 
 
 def solution_part_1(packets: List[Packet]) -> int:
-    """Solution to Part 1 - Sum indexes where left packet is smaller than right packet."""
+    """Solution to Part 1 - Sum pair indexes where left packet is smaller than right packet."""
     index_sum = 0
     # Cast packets to iterrate and zip it with itself to create pairs
     packets = iter(packets)
