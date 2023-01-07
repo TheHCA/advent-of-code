@@ -5,7 +5,8 @@ import json
 import os
 from typing import Any, Iterable, List
 
-EXAMPLE_INPUT = """[1,1,3,1,1]
+EXAMPLE_INPUT = """
+[1,1,3,1,1]
 [1,1,5,1,1]
 
 [[1],[2,3,4]]
