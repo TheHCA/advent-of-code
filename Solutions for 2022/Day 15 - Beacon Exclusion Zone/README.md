@@ -8,7 +8,7 @@ I started by building a solution that would generate coordinates of each positio
 
 From here I looked at how I could improve my solution. The next realisation is that we only really need to concern ourselves with the overlapping regions of each sensor, specifically, where they intersect with one another. If we look at the hastily drawn diagram below, showing the centerpoints of 4 sensors (denoted as a `+` icon), with their manhattan scanning ranges denoted below them.
 
-![Alt text](plots/drawing.jpeg)
+![Alt text](plots/drawing.png)
 
 Here we can see that the location of the distress beacon must be contained between 4 of sensor search areas. So the next step was to work out how we can calculate the points of intersection (marked with an `x`)between two sensor search area rectangles. If we can calculate this, then we can just seach the areas around each intersection to find the distress beacon.
 
