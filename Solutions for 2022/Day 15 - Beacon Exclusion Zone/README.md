@@ -19,33 +19,28 @@ So the new iteration of the solution generates the four positive and negative li
 
 Where two lines are represented by
 ```math
-c_1 = a_1x + b_1y
-\\
+c_1 = a_1x + b_1y \\
 c_2 = a_2x + b_2y
 ```
 
 Which can be solved to yield
 
 ```math
-x = \frac{b_2c_1 - b_1c_2}{a_1b_2 - a_2b_1}
-\\
+x = \frac{b_2c_1 - b_1c_2}{a_1b_2 - a_2b_1} \\
 y = \frac{a_1c_2 - a_2c_1}{a_1b_2 - a_2b_1}
 ```
 
 Plugging in our values:
 ```math
-b_1 = b_2 = 1
-\\
-a_1 = 1
-\\
+b_1 = b_2 = 1 \\
+a_1 = 1 \\
 a_2 = -1
 ```
 
 Yields the following simplified formula for calculating the x and y location of the intercept
 
 ```math
-x = \frac{c_1 - c_2}{2}
-\\
+x = \frac{c_1 - c_2}{2} \\
 y = \frac{c_1 + c_2}{2}
 ```
 
