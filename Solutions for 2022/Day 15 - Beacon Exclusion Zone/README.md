@@ -33,7 +33,7 @@ Plugging in our values:
 \displaylines{b_1 = b_2 = 1 \\ a_1 = 1 \\ a_2 = -1}
 ```
 
-Yields the following simplified formula for calculating the x and y location of the intercept
+Yields the following simplified formula for calculating the x and y location of the intercect
 
 ```math
 \displaylines{x = \frac{c_1 - c_2}{2} \\ y = \frac{c_1 + c_2}{2}}
